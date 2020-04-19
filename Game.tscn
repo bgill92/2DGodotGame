@@ -1,0 +1,228 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Wall.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Goal.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Box.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Game.gd" type="Script" id=5]
+[ext_resource path="res://Assets/yoster-island.regular.ttf" type="DynamicFontData" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+font_data = ExtResource( 6 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 80 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+current = true
+zoom = Vector2( 0.25, 0.24 )
+
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="Wall2" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 16 )
+
+[node name="Wall3" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 32 )
+
+[node name="Wall4" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 48 )
+
+[node name="Wall5" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 64 )
+
+[node name="Wall6" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 80 )
+
+[node name="Wall7" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 96 )
+
+[node name="Wall8" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 112 )
+
+[node name="Wall9" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 128 )
+
+[node name="Wall12" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 16, 144 )
+
+[node name="Wall13" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 144 )
+
+[node name="Wall14" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 48, 144 )
+
+[node name="Wall15" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 64, 144 )
+
+[node name="Wall16" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 80, 144 )
+
+[node name="Wall17" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 96, 144 )
+
+[node name="Wall18" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 112, 144 )
+
+[node name="Wall19" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 128, 144 )
+
+[node name="Wall20" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 144, 144 )
+
+[node name="Wall21" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 160, 144 )
+
+[node name="Wall22" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 176, 144 )
+
+[node name="Wall23" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 192, 144 )
+
+[node name="Wall24" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 208, 144 )
+
+[node name="Wall25" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 144 )
+
+[node name="Wall26" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 240, 144 )
+
+[node name="Wall27" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 256, 144 )
+
+[node name="Wall28" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 272, 144 )
+
+[node name="Wall29" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 144 )
+
+[node name="Wall32" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 128 )
+
+[node name="Wall33" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 112 )
+
+[node name="Wall34" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 96 )
+
+[node name="Wall35" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 80 )
+
+[node name="Wall59" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 80 )
+
+[node name="Wall60" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 96 )
+
+[node name="Wall36" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 64 )
+
+[node name="Wall37" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 48 )
+
+[node name="Wall38" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 32 )
+
+[node name="Wall41" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 16 )
+
+[node name="Wall42" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 272, 16 )
+
+[node name="Wall43" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 256, 16 )
+
+[node name="Wall44" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 240, 16 )
+
+[node name="Wall45" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 16 )
+
+[node name="Wall46" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 208, 16 )
+
+[node name="Wall47" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 192, 16 )
+
+[node name="Wall48" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 176, 16 )
+
+[node name="Wall49" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 160, 16 )
+
+[node name="Wall50" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 144, 16 )
+
+[node name="Wall51" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 128, 16 )
+
+[node name="Wall52" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 112, 16 )
+
+[node name="Wall53" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 96, 16 )
+
+[node name="Wall54" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 80, 16 )
+
+[node name="Wall55" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 64, 16 )
+
+[node name="Wall56" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 48, 16 )
+
+[node name="Wall57" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 16 )
+
+[node name="Boxes" type="Node" parent="."]
+
+[node name="Box" parent="Boxes" instance=ExtResource( 4 )]
+position = Vector2( 128, 80 )
+
+[node name="Box2" parent="Boxes" instance=ExtResource( 4 )]
+position = Vector2( 192, 96 )
+
+[node name="Goals" type="Node" parent="."]
+
+[node name="Goal" parent="Goals" instance=ExtResource( 3 )]
+position = Vector2( 240, 80 )
+
+[node name="Goal2" parent="Goals" instance=ExtResource( 3 )]
+position = Vector2( 240, 96 )
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+margin_left = 112.0
+margin_top = 64.0
+margin_right = 218.0
+margin_bottom = 122.0
+window_title = ":D"
+dialog_text = "Level Cleared!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NameLabel" type="Label" parent="."]
+margin_right = 46.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 1 )
+text = "Level 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MovesLabel" type="Label" parent="."]
+margin_top = 160.0
+margin_right = 49.0
+margin_bottom = 174.0
+custom_fonts/font = SubResource( 1 )
+text = "Moves: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="confirmed" from="AcceptDialog" to="." method="_on_AcceptDialog_confirmed"]
